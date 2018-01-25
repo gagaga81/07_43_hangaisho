@@ -30,11 +30,15 @@
     </tr>
     <tr>
         <td>入社日</td>
-        <td><input type="date" name="employ_entryday" id="" required></td>
+        <td><input type="date" name="employ_hiredate" id="" required></td>
     </tr>
     <tr>
         <td>時給</td>
         <td><input type="number" name="employ_Hwage" id="" required></td>
+    </tr>
+    <tr>
+        <td>メモ</td>
+        <td><input type="textarea" name="employ_memo" id=""></td>
     </tr>
 
 </table>

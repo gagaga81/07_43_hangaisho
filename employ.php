@@ -47,7 +47,7 @@ if($status==false){
 
 }else{
     while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
-        $view .= "<td>";
+        $view .= "<tr><td>";
         $view .= $result["id"];
         $view .= "</td><td>";
         $view .= $result["employ_id"];
@@ -65,7 +65,7 @@ if($status==false){
         $view .= $result["employ_memo"];
         $view .= "</td><td>";
         $view .= $result["employ_updatetime"];
-        $view .= "</td>";
+        $view .= "</td></tr>";
         
     }
 }
